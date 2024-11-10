@@ -1,0 +1,82 @@
+@charset "UTF-8"
+/* REGRA @chaRSET CASO HAJA PROBLEMAS COM ACENTUAÇÕES*/
+
+;
+
+body{ background-image: linear-gradient(to right,#358cc2,hsl(191, 89%, 53%) );}
+
+main {
+  background-color:  #ffffff;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px hsl(191, 89%, 53%)  ;
+  width: 650px;
+  padding: 10px;
+  margin: auto;
+}
+ 
+button  {
+
+  display: inline-block;
+
+  padding: 10px 20px;
+
+  background-color: #F2C2C2; /* Cor de fundo do botão */
+
+  color: #000000; /* Cor do texto no botão */
+  font-family: 𝐅𝐨𝐧𝐭𝐞𝐬 𝐝𝐞 𝐥𝐞𝐭𝐫𝐚𝐬;
+  margin-top: 15px; margin-right: 15px; margin-right: 15px;
+  Float: right;
+  
+  text-decoration: none; /* Remova sublinhado de links */
+
+  border: color(srgb rgb(0, 0, 0) green blue); /* Remova a borda do botão */
+
+  border-radius: 5px; /* Cantos arredondados */
+
+  font-size: 20px; /* Tamanho da fonte */
+
+  text-align: center;
+
+  cursor: pointer; /* Mude o cursor para uma mão quando passar o mouse */
+
+}
+
+/* Estilo quando o mouse passa por cima do botão */
+
+.botao-cta:hover {
+
+  background-color: #e0e6ec; /* Cor de fundo mais escura ao passar o mouse */
+
+}
+
+/* Estilo quando o botão é pressionado */
+
+.botao-cta:active {
+
+  background-color: #003d80; }
+ h1 { font-family: ꜰᴀɴᴄʏ ᴛᴇxᴛ;
+    color: #030308;
+ padding: 10px;
+ text-align: center;
+ }
+h3{ font-family: Helvetica, sans-serif;
+  color: #000000;
+padding: 10px;
+text-align: justify;
+}
+p{font-family: Helvetica, sans-serif;
+  color: #000000;
+padding: 10px;
+text-indent: 20px;
+text-align: justify;
+}
+
+/*Responsividade*/
+@media (max-width: 600px) {
+  main {
+  flex-direction: column;
+  }
+  section {
+  width: 100%;
+  }
+ }
